@@ -2,20 +2,3 @@
 # yarn lockfile v1
 
 
-helm-binary-darwin@^3.2.4:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/helm-binary-darwin/-/helm-binary-darwin-3.2.4.tgz#aeb4615130b03a32ed03d5bbb0ca0957a715984d"
-  integrity sha512-DgT/8uDu2GMAfPVNWsTYVy22nILcOo8EsXz1stBSa4hRl2AsmRwOsYOgcGzw1edf3PrdIy4mhARZI+jQE3CAtg==
-
-helm-binary-linux@^3.2.4:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/helm-binary-linux/-/helm-binary-linux-3.2.4.tgz#aa3b3d2457e6e78ac21fd221534aca22ca1c1de6"
-  integrity sha512-co1ea/VSAWTeQNCCfmae79S2S7LKK+kGp5VYCRdu8gEtmj66j8qjHdxI4LRZyLKTjZZ63fXylju30gun8dTEiQ==
-
-helm-binary@^3.2.4-release3:
-  version "3.2.4-release3"
-  resolved "https://registry.yarnpkg.com/helm-binary/-/helm-binary-3.2.4-release3.tgz#05705f55e58e20f329ba178fb9f6042deaac2a94"
-  integrity sha512-cBOdyJXQU/ozBR8s2WT0dCfOIH1V+S93W810a3MFGBdng+fAdDVTUGv2yGyzMFfak89y2Z7v5WAbYhbFprMCxw==
-  optionalDependencies:
-    helm-binary-darwin "^3.2.4"
-    helm-binary-linux "^3.2.4"
