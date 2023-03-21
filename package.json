@@ -1,6 +1,6 @@
 {
   "name": "helm-diff-npm",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "install helm diff plugin via npm",
   "main": "index.js",
   "repository": "https://github.com/edify42/helm-diff-npm",
@@ -9,9 +9,6 @@
   "private": false,
   "scripts": {
     "clean": "rm -rf node_modules",
-    "postinstall": "helm plugin install https://github.com/databus23/helm-diff || echo 'non-zero exit of plugin install - likely already present'"
-  },
-  "dependencies": {
-    "helm-binary": "^3.2.4-release3"
+    "postinstall": "helm plugin install https://github.com/databus23/helm-diff || echo 'non-zero exit of plugin install - check error before proceeding'"
   }
 }
